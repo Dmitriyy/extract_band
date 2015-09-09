@@ -21,7 +21,7 @@ def extract_band(hdf_image_id, working_directory, hdf_file, output_directory, ba
         filename = hdf_file[:-4]+'_'+band+'.tif'
         size = os.stat(output_directory + filename).st_size
         print('ImagesBands')
-        ImagesBandsCtrl.create(filename, hdf_image_id, band, size, output_directory)
+        #ImagesBandsCtrl.create(filename, hdf_image_id, band, size, output_directory)
         return True
 
     except Exception as e:
