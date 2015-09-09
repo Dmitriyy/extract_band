@@ -20,4 +20,4 @@ mod09ga.extract_band(image['path'], image['filename'], '/media/3tb/images/geotif
 mod09ga.extract_band(image['path'], image['filename'], '/media/3tb/images/geotiff/images_bands/mod09ga/', 'MODIS_Grid_500m_2D:sur_refl_b06_1')
 mod09ga.extract_band(image['path'], image['filename'], '/media/3tb/images/geotiff/images_bands/mod09ga/', 'MODIS_Grid_500m_2D:sur_refl_b07_1')
 
-ImagesCtrl.set_processed(image['id'], 1)
+#ImagesCtrl.set_processed(image['id'], 1)
